@@ -1,16 +1,31 @@
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly React.js project that generates secure, random passwords based on user preferences. Users can customize the password length and character types to create passwords that meet different security requirements.
 
-Currently, two official plugins are available:
+#### Features
+* Generate random passwords instantly
+* Customizable password length
+* Include uppercase letters (A-Z)
+* Include lowercase letters (a-z)
+* Include numbers (0-9)
+* Include special characters (!@#$%^&*)
+* Copy generated password to clipboard
+* Responsive Bootstrap 5 interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+#### Technologies Used
 
-## React Compiler
+* React.js
+* JavaScript (ES6+)
+* Bootstrap 5
+* CSS3
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+#### Learning Objectives
 
-## Expanding the ESLint configuration
+## This project was built to practice:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React Hooks (useState)
+* Controlled form components
+* Event handling
+* Conditional logic
+* Random data generation
+* Responsive UI design with Bootstrap
